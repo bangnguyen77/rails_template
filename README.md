@@ -6,7 +6,7 @@ This is a template for Ruby on Rails with gems: bootstrap-sass, devise and some 
 
 * Create a new project
 ```
-rails new to_do -d postgresql -T
+rails new rails_template -d postgresql -T
 ```
 * -d postgresql tells Rails to use Postgres for the database,
 and -T tells it not to install its testing tools - by default, it uses a library called test-unit, whereas we use RSpec
