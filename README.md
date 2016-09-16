@@ -21,7 +21,7 @@ rails db:create
 ```
 * Then we create our Posts table (just as example) with:
 ```
-rails g migration create_lists for short
+rails g migration create_posts for short
 ```
 * Then we can migrate, and prepare our test database, and Active Record will create the schema.rb file in db.
 ```
